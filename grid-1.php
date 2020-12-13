@@ -20,7 +20,7 @@
                     // STEP 1: CUSTOMIZE THE HTML HERE
 
                   if (book.url) {
-                      html += '<p><a href="https://openlibrary.org/api/books?jscmd=data&bibkeys=ISBN' + book.isbn + '">' + book.url'</a></p>';
+                      html += '<p><a href="https://openlibrary.org/api/books?jscmd=data&bibkeys=ISBN' + book.isbn + '">' + book.url + '</a></p>';
                   }
                     //html += '<p>' + book.url + '</p>';
                     //html += '<p>' + book.ATTRIBUTE2 + '</p>';
