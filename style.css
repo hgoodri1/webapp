@@ -1,0 +1,149 @@
+
+body {
+    background: #ddd;
+    font-size:100%;
+}
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.33em;
+    font-weight: bolder;
+    margin-top:0;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.66em;
+    font-weight: normal;
+}
+
+p, ul, ol {
+    font-family: Arial, serif;
+    line-height: 1.5em;
+}
+
+#Content {
+    width: 100%;
+    margin:0 auto;
+}
+
+#Menu {
+    background-color: #444;
+    border-top:1px solid #111;
+    border-bottom:1px solid #111;
+}
+
+#Menu ul {
+    font-family: Arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#Menu li {
+    float: left;
+    border-right: 1px solid #111;
+    font-weight: bold;
+}
+
+#Menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#Menu li a:hover {
+    background-color: #111;
+}
+
+#PageContent {
+    background: #efefef;
+    padding: 18px 32px;
+}
+
+header, footer {
+    text-align:center;
+    text-transform: uppercase;
+    background: #333;
+    color: #fff;
+}
+
+header a, footer a {
+    color:gold;
+}
+
+header a:hover, footer a:hover {
+    color:yellow;
+}
+
+header {
+    border-radius: 6px 6px 0 0;
+    border-bottom:3px;
+}
+
+header span {
+    font-size: 2.66em;
+    padding: 18px;
+    display:block;
+}
+
+footer {
+    border-radius: 0 0 6px 6px;
+}
+
+footer span {
+    padding: 18px;
+    display: block;
+}
+
+table {
+    width: 98%;
+    margin:0 auto;
+    font-family:sans-serif;
+    font-size:12px;
+    background: #fff;
+    border-collapse: collapse;
+}
+
+table, tr, td {
+    border:1px solid #ccc;
+}
+
+table thead {
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr td, table tr th {
+    padding: 6px;
+}
+
+input, select {
+    padding:6px;
+    border-radius:3px;
+    border:1px solid #ccc;
+}
+
+table tr td:first-child {
+    width:150px;
+}
+
+textarea {
+    font-family:sans-serif;
+    width:100%;
+    height:100px;
+}
+
+/* TODO: Add more style! */
